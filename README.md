@@ -65,8 +65,7 @@ Este projeto é uma aplicação Windows Forms para registro de denúncias com su
 ---
 
 ## Execução
-  - Para executar o código siga o caminho a seguir até o executável teste.exe
-  teste/bin/Debug/teste.exe
+  - Para executar o código basta executar o arquivo com o nome teste.exe
 
 ---
 
