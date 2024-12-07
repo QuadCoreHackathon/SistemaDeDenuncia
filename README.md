@@ -12,6 +12,8 @@ Este projeto é uma aplicação Windows Forms para registro de denúncias com su
 - Integração com mapas usando **OpenStreetMap**.
 - Validação de entrada em campos de texto para números e letras.
 - Exibição de coordenadas no mapa.
+- Identificação de bioma por coordenada.
+- Informação sobre biomas
 
 ---
 
@@ -53,7 +55,7 @@ Este projeto é uma aplicação Windows Forms para registro de denúncias com su
 ### Passos para Executar
 1. **Clone o Repositório**
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/QuadCoreHackathon/SistemaDeDenuncia.git
    ```
 2. **Instale as Dependências**
    - Use o **NuGet Package Manager** ou os comandos listados acima para instalar as bibliotecas necessárias.
@@ -62,16 +64,13 @@ Este projeto é uma aplicação Windows Forms para registro de denúncias com su
 
 ---
 
-## Estrutura de Código
-- **Denunciar.cs**
-  - Contém a lógica para registrar denúncias, buscar coordenadas e validações.
-- **Mapa.cs**
-  - Gerencia o controle de mapa para exibição de coordenadas com o **GMap.NET**.
+## Execução
+  - Para executar o código siga o caminho a seguir até o executável teste.exe
+  teste/bin/Debug/teste.exe
 
 ---
 
 ## Observações
-- Certifique-se de que sua aplicação não abuse da API Nominatim, respeitando suas [políticas de uso](https://operations.osmfoundation.org/policies/nominatim/).
 - O controle GMap.NET suporta diferentes provedores de mapa; neste projeto, o **OpenStreetMap** foi utilizado por ser gratuito.
 
 ---
@@ -79,4 +78,4 @@ Este projeto é uma aplicação Windows Forms para registro de denúncias com su
 ## Autores
 - Desenvolvido por João Vitor Leite Novoletti, 
 Lucas Campos Regonha, Lucas Novello Schiavuzzo e 
-Matheus Henrique Lopes Manoel .
+Matheus Henrique Lopes Manoel.
